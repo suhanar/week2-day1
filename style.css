@@ -52,7 +52,7 @@ form input{
 input:hover{
     box-shadow: 5px 5px rgb(141, 148, 185);
 }
-#button1{
+button{
     position:absolute;
     top:480px;
     width:60%;
@@ -65,13 +65,13 @@ input:hover{
     border:0;
     
 }
-#button1::after{
+button::after{
     content:'\2192';
     
     margin-left:10px;
     opacity:0;
 }
-#button1:hover{
+button:hover{
     background: linear-gradient(to right, #9900cc 0%, #cc99ff 100%);;
     color:black;
     transition: all ease .5s;
@@ -79,7 +79,7 @@ input:hover{
     outline: none;
     
 }
-#button1:hover::after{
+button:hover::after{
     opacity:1;
     padding-left:20px;
     transition:all ease 1s;
